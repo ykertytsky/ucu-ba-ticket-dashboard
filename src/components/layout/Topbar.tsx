@@ -37,33 +37,12 @@ export function Topbar() {
             <p className="text-sm text-zinc-500">{getDateRangeLabel(filters)}</p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
-            <button
-              type="button"
-              onClick={resetFilters}
-              className="inline-flex items-center gap-2 rounded-2xl border border-zinc-200 px-4 py-2 text-sm font-medium text-zinc-700 transition-colors hover:border-zinc-300 hover:bg-zinc-50"
-            >
-              <RotateCcw className="h-4 w-4" />
-              Скинути фільтри
-            </button>
             <Link
               href="/dashboard/settings"
               className="inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-violet-700"
             >
               <Upload className="h-4 w-4" />
               Завантажити дані
-            </Link>
-            <Link
-              href="/dashboard/data-quality"
-              className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium ${
-                tone === "good"
-                  ? "bg-emerald-50 text-emerald-700"
-                  : tone === "fair"
-                    ? "bg-amber-50 text-amber-700"
-                    : "bg-rose-50 text-rose-700"
-              }`}
-            >
-              <ShieldAlert className="h-4 w-4" />
-              {score !== undefined ? `DQ ${score.toFixed(0)}` : "Якість даних"}
             </Link>
           </div>
         </div>

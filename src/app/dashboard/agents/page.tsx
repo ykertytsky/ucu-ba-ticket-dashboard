@@ -13,13 +13,6 @@ export default function AgentsPage() {
 
   return (
     <>
-      <PageHeader
-        title="Виконавці"
-        description="Порівняння навантаження, швидкості вирішення й якості роботи окремих агентів. Використовуйте сторінку, щоб побачити перевантаження або дисбаланс у команді."
-        info="Метрика трекінгу часу відображається з caveat, бо вона заповнена лише приблизно для 46% тікетів."
-      />
-      <GlobalFilterBar />
-
       <div className="grid gap-6 xl:grid-cols-2">
         <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-zinc-950">Навантаження на виконавців</h2>

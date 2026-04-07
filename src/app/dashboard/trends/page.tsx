@@ -11,12 +11,6 @@ export default function TrendsPage() {
 
   return (
     <>
-      <PageHeader
-        title="Тренди"
-        description="Історичний розділ для порівняння періодів. У першому MVP він доступний лише тоді, коли є хоча б два окремі імпорти даних."
-        info="Щойно у вас з’являться дані за два різні періоди, тут можна буде додати повноцінні порівняння KPI та динаміку категорій."
-      />
-
       <div className="rounded-2xl border border-zinc-200 bg-white p-10 text-center shadow-sm">
         {ready ? (
           <>

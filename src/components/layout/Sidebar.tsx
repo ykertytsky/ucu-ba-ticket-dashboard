@@ -8,8 +8,6 @@ import {
   FolderKanban,
   LayoutDashboard,
   Settings,
-  ShieldAlert,
-  Ticket,
   Users,
 } from "lucide-react";
 
@@ -17,11 +15,9 @@ import { cn } from "@/lib/utils";
 
 const items = [
   { href: "/dashboard", label: "Огляд", icon: LayoutDashboard },
-  { href: "/dashboard/tickets", label: "Тікети", icon: Ticket },
   { href: "/dashboard/agents", label: "Виконавці", icon: Users },
   { href: "/dashboard/categories", label: "Категорії", icon: FolderKanban },
   { href: "/dashboard/trends", label: "Тренди", icon: BarChart3 },
-  { href: "/dashboard/data-quality", label: "Якість даних", icon: ShieldAlert },
   { href: "/dashboard/settings", label: "Налаштування", icon: Settings },
 ];
 

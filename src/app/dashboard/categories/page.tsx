@@ -59,13 +59,6 @@ export default function CategoriesPage() {
 
   return (
     <>
-      <PageHeader
-        title="Категорії"
-        description="Показує, де зосереджений найбільший біль: які категорії генерують найбільший обсяг і де час вирішення найдовший."
-        info="Якщо оберете категорію через глобальні фільтри, усі візуалізації автоматично перелаштуються на неї."
-      />
-      <GlobalFilterBar />
-
       <div className="grid gap-6 xl:grid-cols-2">
         <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-zinc-950">Обсяг за категорією</h2>
