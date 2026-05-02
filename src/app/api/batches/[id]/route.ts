@@ -1,13 +1,18 @@
+import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
+import { gateUnauthorizedResponse } from "@/lib/gate";
 import { deleteBatch } from "@/lib/server/queries";
 
 export const runtime = "nodejs";
 
 export async function DELETE(
-  _request: Request,
+  request: NextRequest,
   context: { params: Promise<{ id: string }> },
 ) {
+  const denied = await gateUnauthorizedResponse(request);
+  if (denied) return denied;
+
   const { id } = await context.params;
   const deleted = deleteBatch(id);
 

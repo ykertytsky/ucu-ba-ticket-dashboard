@@ -38,6 +38,12 @@ export function Topbar() {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <Link
+              href="/api/auth/logout"
+              className="inline-flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white px-4 py-2 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-50"
+            >
+              Вийти
+            </Link>
+            <Link
               href="/dashboard/settings"
               className="inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-violet-700"
             >

@@ -5,6 +5,8 @@ services:
     environment:
       NODE_ENV: production
       DB_PATH: /app/data/helpdesk.db
+      # Optional access gate (same value = login password). No SQLite required.
+      # DASHBOARD_GATE_SECRET: "replace-with-long-random"
     volumes:
       - ./data:/app/data
     healthcheck:

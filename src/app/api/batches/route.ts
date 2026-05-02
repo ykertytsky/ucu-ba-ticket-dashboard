@@ -1,9 +1,14 @@
+import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
+import { gateUnauthorizedResponse } from "@/lib/gate";
 import { listBatches } from "@/lib/server/queries";
 
 export const runtime = "nodejs";
 
-export function GET() {
+export async function GET(request: NextRequest) {
+  const denied = await gateUnauthorizedResponse(request);
+  if (denied) return denied;
+
   return NextResponse.json({ batches: listBatches() });
 }

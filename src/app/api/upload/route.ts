@@ -1,11 +1,16 @@
+import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
+import { gateUnauthorizedResponse } from "@/lib/gate";
 import { parseHeskXml } from "@/lib/parser/hesk-xml";
 import { importBatch } from "@/lib/server/queries";
 
 export const runtime = "nodejs";
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
+  const denied = await gateUnauthorizedResponse(request);
+  if (denied) return denied;
+
   try {
     const formData = await request.formData();
     const file = formData.get("file");
