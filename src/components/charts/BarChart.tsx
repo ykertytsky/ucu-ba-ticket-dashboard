@@ -28,8 +28,8 @@ export function BarChart({
   horizontal = false,
 }: BarChartProps) {
   return (
-    <div className="h-[280px] w-full" style={{ height }}>
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="w-full min-w-0" style={{ height }}>
+      <ResponsiveContainer width="100%" height={height}>
         <RechartsBarChart
           data={data}
           layout={horizontal ? "vertical" : "horizontal"}

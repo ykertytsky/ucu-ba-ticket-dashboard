@@ -32,8 +32,8 @@ export function DailyVolumeChart({ data, height = 280 }: DailyVolumeChartProps) 
   const tickInterval = Math.max(0, Math.floor(data.length / 12) - 1);
 
   return (
-    <div style={{ height }}>
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="w-full min-w-0" style={{ height }}>
+      <ResponsiveContainer width="100%" height={height}>
         <BarChart
           data={formatted}
           margin={{ top: 8, right: 12, left: 0, bottom: 0 }}

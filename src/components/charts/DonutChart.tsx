@@ -10,10 +10,12 @@ interface DonutChartProps {
   valueKey: string;
 }
 
+const CHART_HEIGHT_PX = 280;
+
 export function DonutChart({ data, labelKey, valueKey }: DonutChartProps) {
   return (
-    <div className="h-[280px] w-full">
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="h-[280px] w-full min-w-0">
+      <ResponsiveContainer width="100%" height={CHART_HEIGHT_PX}>
         <RechartsPieChart>
           <Pie data={data} dataKey={valueKey} nameKey={labelKey} innerRadius={64} outerRadius={100} paddingAngle={2}>
             {data.map((entry, index) => (
