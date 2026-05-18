@@ -5,18 +5,19 @@ import { AlertTriangle, CheckCircle2, Clock3, Ticket } from "lucide-react";
 import { DailyVolumeChart } from "@/components/charts/DailyVolumeChart";
 import { DonutChart } from "@/components/charts/DonutChart";
 import { KpiCard } from "@/components/cards/KpiCard";
-import { parseFilterParams } from "@/lib/filters";
+import { GlobalFilterBar } from "@/components/filters/GlobalFilterBar";
+import { useFilters } from "@/hooks/useFilters";
 import { useMetrics } from "@/hooks/useMetrics";
 import { formatHours, formatNumber, formatPercent } from "@/lib/utils";
 
-const ALL_DATA_FILTERS = parseFilterParams({});
-
 export default function OverviewPage() {
-  const metrics = useMetrics(ALL_DATA_FILTERS);
+  const { filters } = useFilters();
+  const metrics = useMetrics(filters);
   const data = metrics.data;
 
   return (
     <>
+      <GlobalFilterBar />
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         <KpiCard
           label="Всього тікетів"

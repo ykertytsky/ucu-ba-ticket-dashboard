@@ -1,6 +1,5 @@
 import { BatchHistory } from "@/components/upload/BatchHistory";
 import { UploadZone } from "@/components/upload/UploadZone";
-import { PageHeader } from "@/components/layout/PageHeader";
 
 export default function SettingsPage() {
   return (

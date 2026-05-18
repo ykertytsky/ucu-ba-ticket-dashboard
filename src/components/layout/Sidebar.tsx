@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
-  BarChart3,
   Database,
   FolderKanban,
   LayoutDashboard,
@@ -18,7 +17,6 @@ const items = [
   { href: "/dashboard", label: "Огляд", icon: LayoutDashboard },
   { href: "/dashboard/agents", label: "Виконавці", icon: Users },
   { href: "/dashboard/categories", label: "Категорії", icon: FolderKanban },
-  { href: "/dashboard/trends", label: "Тренди", icon: BarChart3 },
   { href: "/dashboard/settings", label: "Налаштування", icon: Settings },
 ];
 

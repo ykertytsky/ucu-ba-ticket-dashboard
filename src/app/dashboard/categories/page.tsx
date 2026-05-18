@@ -3,9 +3,8 @@
 import { useMemo } from "react";
 
 import { BarChart } from "@/components/charts/BarChart";
-import { HeatmapChart } from "@/components/charts/HeatmapChart";
 import { GlobalFilterBar } from "@/components/filters/GlobalFilterBar";
-import { PageHeader } from "@/components/layout/PageHeader";
+import { HeatmapChart } from "@/components/charts/HeatmapChart";
 import { useFilters } from "@/hooks/useFilters";
 import { useMetrics } from "@/hooks/useMetrics";
 import { useTickets } from "@/hooks/useTickets";
@@ -59,6 +58,7 @@ export default function CategoriesPage() {
 
   return (
     <>
+      <GlobalFilterBar />
       <div className="grid gap-6 xl:grid-cols-2">
         <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-zinc-950">Обсяг за категорією</h2>

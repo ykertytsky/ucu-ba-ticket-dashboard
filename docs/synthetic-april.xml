@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+>
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Synthetic HESK export for April 2026</Data>
+        </Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4101</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-7D2-K9LM]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-02T09:12:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-02T15:18:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-02T15:18:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Марта Гуменюк]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[marta.humeniuk@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Техпідтримка події]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Високий]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Вирішене]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Налаштування гібридної панелі для зустрічі]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Потрібно підключити камеру, мікрофони та трансляцію Zoom для квітневої координаційної зустрічі.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Назар Бабій]]></Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[01:25:00]]></Data></Cell>
+        <Cell ss:Index="20"><Data ss:Type="DateTime">2026-04-03T00:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[10:00-12:00]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[вул. Іл. Свєнціцького, 17]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[237]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Подія]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-7D2-K9LM&amp;e=marta.humeniuk%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4102</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-2Q4-V8NX]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-04T11:05:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-05T08:40:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell ss:Index="7"><Data ss:Type="String"><![CDATA[Ольга Савчин]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[olha.savchyn@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[LMS AcademyOcean]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Середній]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Нове]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Не відкривається модуль після завершення уроку]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Після завершення уроку сторінка курсу не переходить до фінального тесту.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Наталя Мавдрик]]></Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:00:00]]></Data></Cell>
+        <Cell ss:Index="19"><Data ss:Type="DateTime">2026-04-07T18:00:00.000</Data></Cell>
+        <Cell ss:Index="24"><Data ss:Type="String"><![CDATA[AcademyOcean]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Доступ до курсу]]></Data></Cell>
+        <Cell ss:Index="32"><Data ss:Type="String"><![CDATA[Академія сертифікатних програм]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-2Q4-V8NX&amp;e=olha.savchyn%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4103</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-3H7-M5PC]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-07T08:22:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-07T12:10:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-07T12:10:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Іван Прокопчук]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[ivan.prokopchuk@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Корпоративна пошта]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Середній]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Вирішене]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Не доходять листи від зовнішнього домену]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Зовнішні повідомлення потрапляли в quarantine, потрібно було додати виняток для партнера.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Юрій Стецько]]></Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:35:00]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Пошта]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-3H7-M5PC&amp;e=ivan.prokopchuk%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4104</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-8R1-T6ZA]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-10T14:47:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-12T09:05:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell ss:Index="7"><Data ss:Type="String"><![CDATA[Софія Мельник]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[sofiia.melnyk@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Інтернет і Wi-Fi]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Високий]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[В роботі]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Нестабільний Wi-Fi в аудиторії]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[З'єднання переривається під час занять, особливо коли в аудиторії більше 20 пристроїв.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Остап Федорів]]></Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:20:00]]></Data></Cell>
+        <Cell ss:Index="22"><Data ss:Type="String"><![CDATA[вул. Козельницька, 2а]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[302]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-8R1-T6ZA&amp;e=sofiia.melnyk%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4105</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-5L9-W2BJ]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-14T10:30:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-14T13:55:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-14T13:55:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Роман Коваль]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[roman.koval@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Облікові записи]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Середній]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Вирішене]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Потрібен доступ до спільної теки кафедри]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Необхідно надати права редагування на спільну теку для нового координатора програми.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Марія Рибак]]></Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:15:00]]></Data></Cell>
+        <Cell ss:Index="24"><Data ss:Type="String"><![CDATA[Google Drive]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Доступи]]></Data></Cell>
+        <Cell ss:Index="32"><Data ss:Type="String"><![CDATA[Школа управління УКУ]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-5L9-W2BJ&amp;e=roman.koval%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4106</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-4N6-X7DK]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-18T16:05:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-20T09:20:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell ss:Index="7"><Data ss:Type="String"><![CDATA[Катерина Гнатюк]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[kateryna.hnatiuk@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Moodle]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Низький]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Очікує відповіді]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Не видно оцінку за завдання]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Після повторної перевірки студентка не бачить оновлену оцінку в gradebook.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Наталя Мавдрик]]></Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:00:00]]></Data></Cell>
+        <Cell ss:Index="24"><Data ss:Type="String"><![CDATA[Moodle]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Оцінювання]]></Data></Cell>
+        <Cell ss:Index="32"><Data ss:Type="String"><![CDATA[Факультет прикладних наук]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-4N6-X7DK&amp;e=kateryna.hnatiuk%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4107</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-1P8-C3RY]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-22T09:40:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-22T11:02:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-22T11:02:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Андрій Сениця]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[andrii.senytsia@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Принтери]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Низький]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Вирішене]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Застряг папір у принтері на 4 поверсі]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Після очищення тракту друк відновився, додатково оновили лічильник витратних матеріалів.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Остап Федорів]]></Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[00:45:00]]></Data></Cell>
+        <Cell ss:Index="22"><Data ss:Type="String"><![CDATA[вул. Козельницька, 2а]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[415]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-1P8-C3RY&amp;e=andrii.senytsia%40ucu.edu.ua</Data></Cell>
+      </Row>
+
+      <Row>
+        <Cell><Data ss:Type="Number">4108</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[APR-9S2-F4UE]]></Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-27T13:18:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-28T17:45:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-30T18:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="DateTime">2026-04-28T17:45:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Христина Дячук]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[khrystyna.diachuk@ucu.edu.ua]]></Data></Cell>
+        <Cell ss:Index="10"><Data ss:Type="String"><![CDATA[Техпідтримка події]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Середній]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Вирішене]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Звук у трансляції дня відкритих дверей]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Потрібно було прибрати фоновий шум і перевірити дублювання аудіо між пультом та ноутбуком.]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Назар Бабій]]></Data></Cell>
+        <Cell><Data ss:Type="Number">4</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[02:10:00]]></Data></Cell>
+        <Cell ss:Index="20"><Data ss:Type="DateTime">2026-04-29T00:00:00.000</Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[15:00-18:00]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[вул. Іл. Свєнціцького, 17]]></Data></Cell>
+        <Cell><Data ss:Type="String"><![CDATA[Актова зала]]></Data></Cell>
+        <Cell ss:Index="28"><Data ss:Type="String"><![CDATA[Подія]]></Data></Cell>
+        <Cell ss:Index="38"><Data ss:Type="String">https://help.ucu.edu.ua/ticket.php?track=APR-9S2-F4UE&amp;e=khrystyna.diachuk%40ucu.edu.ua</Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>

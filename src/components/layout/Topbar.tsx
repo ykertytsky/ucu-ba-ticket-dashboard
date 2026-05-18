@@ -2,31 +2,23 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { RotateCcw, ShieldAlert, Upload } from "lucide-react";
+import { Upload } from "lucide-react";
 
-import { getActiveFilterPills, getDateRangeLabel } from "@/lib/filters";
-import { getScoreTone } from "@/lib/utils";
+import { getDateRangeLabel } from "@/lib/filters";
 import { useFilters } from "@/hooks/useFilters";
-import { useMetrics } from "@/hooks/useMetrics";
 
 const pageTitles: Record<string, string> = {
   "/dashboard": "Огляд",
   "/dashboard/tickets": "Тікети",
   "/dashboard/agents": "Виконавці",
   "/dashboard/categories": "Категорії",
-  "/dashboard/trends": "Тренди",
-  "/dashboard/data-quality": "Якість даних",
   "/dashboard/settings": "Налаштування",
 };
 
 export function Topbar() {
   const pathname = usePathname();
-  const { filters, removePill, resetFilters } = useFilters();
-  const pills = getActiveFilterPills(filters);
-  const { data } = useMetrics(filters);
+  const { filters } = useFilters();
   const title = pageTitles[pathname] ?? "UCU IT Helpdesk";
-  const score = data?.dataQualityScore;
-  const tone = score !== undefined ? getScoreTone(score) : null;
 
   return (
     <header className="sticky top-0 z-20 border-b border-zinc-200 bg-white/90 px-6 py-4 backdrop-blur">
@@ -34,7 +26,7 @@ export function Topbar() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h1 className="text-2xl font-semibold text-zinc-950">{title}</h1>
-            <p className="text-sm text-zinc-500">{getDateRangeLabel(filters)}</p>
+            <p className="text-sm text-zinc-500">Період: {getDateRangeLabel(filters)}</p>
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <Link
@@ -52,20 +44,6 @@ export function Topbar() {
             </Link>
           </div>
         </div>
-        {pills.length > 0 ? (
-          <div className="flex flex-wrap gap-2">
-            {pills.map((pill) => (
-              <button
-                key={`${pill.key}-${pill.value}`}
-                type="button"
-                onClick={() => removePill(pill.key, pill.value)}
-                className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-700 transition-colors hover:bg-zinc-200"
-              >
-                {pill.value} ×
-              </button>
-            ))}
-          </div>
-        ) : null}
       </div>
     </header>
   );

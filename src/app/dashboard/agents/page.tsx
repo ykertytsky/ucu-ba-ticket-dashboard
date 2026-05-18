@@ -2,7 +2,6 @@
 
 import { BarChart } from "@/components/charts/BarChart";
 import { GlobalFilterBar } from "@/components/filters/GlobalFilterBar";
-import { PageHeader } from "@/components/layout/PageHeader";
 import { useFilters } from "@/hooks/useFilters";
 import { useMetrics } from "@/hooks/useMetrics";
 import { formatHours, formatPercent } from "@/lib/utils";
@@ -13,6 +12,7 @@ export default function AgentsPage() {
 
   return (
     <>
+      <GlobalFilterBar />
       <div className="grid gap-6 xl:grid-cols-2">
         <div className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
           <h2 className="text-lg font-semibold text-zinc-950">Навантаження на виконавців</h2>
